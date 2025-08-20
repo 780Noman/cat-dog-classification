@@ -1,0 +1,714 @@
+
+[     UTC     ] Logs for cat-dog-classification-app.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[06:43:08] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:43:08] 🐙 Cloning repository...
+[06:43:09] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:43:09] 🐙 Cloned repository!
+[06:43:09] 🐙 Pulling code changes from Github...
+[06:43:09] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 64 packages in 592ms
+Prepared 64 packages in 19.91s
+Installed 64 packages in 1.06s
+ + absl-py==2.3.1
+ + altair==5.5.0
+ + astunparse==1.6.3
+ + attrs==25.3.0
+ + blinker==1.9.0[2025-08-20 06:43:31.892441] 
+ + cachetools==6.1.0
+ + certifi==2025.8.3
+ + charset-normalizer==3.4.3
+ + click==8.2.1
+ + flatbuffers==25.2.10
+ + gast==0.6.0
+ + gitdb[2025-08-20 06:43:31.893254] ==4.0.12
+ + gitpython==3.1.45
+ + google-pasta==0.2.0
+ + grpcio==1.74.0
+ + h5py==3.14.0
+ + idna==3.10
+ + jinja2==[2025-08-20 06:43:31.893562] 3.1.6
+ + jsonschema==4.25.1
+ + jsonschema-specifications==2025.4.1
+ + keras==3.11.2
+ + libclang==18.1.1
+ + markdown[2025-08-20 06:43:31.893818] ==3.8.2
+ + markdown-it-py==4.0.0
+ + markupsafe==3.0.2
+ + mdurl==0.1.2
+ + ml-dtypes==0.5.3
+ + namex==[2025-08-20 06:43:31.894125] 0.1.0
+ + narwhals==2.1.2
+ + numpy==2.3.2
+ + opt-einsum==3.4.0
+ +[2025-08-20 06:43:31.894367]  optree==0.17.0
+ + packaging==25.0
+ + pandas==2.3.1
+ +[2025-08-20 06:43:31.894532]  pillow==11.3.0
+ + protobuf==6.32.0
+ + pyarrow==21.0.0
+ + pydeck==0.9.1
+ + pygments==2.19.2[2025-08-20 06:43:31.894737] 
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + referencing==0.36.2
+ + requests==2.32.5
+ + rich[2025-08-20 06:43:31.894962] ==14.1.0
+ + rpds-py==0.27.0
+ + setuptools==80.9.0
+ + six==[2025-08-20 06:43:31.895159] 1.17.0
+ + smmap==5.0.2
+ + streamlit==1.48.1
+ + tenacity==[2025-08-20 06:43:31.895582] 9.1.2
+ + tensorboard==2.20.0
+ + tensorboard-data-server==0.7.2
+ + tensorflow==2.20.0[2025-08-20 06:43:31.896134] 
+ + termcolor==3.1.0
+ + toml==0.10.2
+ + tornado==[2025-08-20 06:43:31.896343] 6.5.2
+ + tqdm==4.67.1
+ + typing-extensions==4.14.1
+ +[2025-08-20 06:43:31.896512]  tzdata==2025.2
+ + urllib3==2.5.0
+ + watchdog==6.0.0
+ [2025-08-20 06:43:31.896659] + werkzeug==3.1.3
+ + wheel==0.45.1
+ + wrapt==1.17.3[2025-08-20 06:43:31.896867] 
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Audited 1 package in 4ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[06:43:35] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[06:43:37] 📦 Processed dependencies!
+
+
+
+2025-08-20 06:43:51.372253: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 06:43:51.452941: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 06:43:59.398798: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+0.00iB [00:00, ?iB/s][2025-08-20 06:44:03.760064] 596kiB [00:00, 11.2MiB/s]
+[06:52:07] 🔌 Disconnecting...
+[06:52:14] 🖥 Provisioning machine...
+[06:52:20] 🎛 Preparing system...
+[06:52:25] ⛓ Spinning up manager process...
+[06:52:31] 🎈 Inflating balloons...
+[06:52:36] 📖 Unpacking Comic Sans RAR files...
+[06:52:43] 🚧 Loading "Under construction" GIF...
+[06:52:48] 🛠 Compiling <blink> tags...
+[06:52:54] 📠 Initializing Java applet...
+[06:53:00] ⏳ Please wait...
+[06:52:35] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:52:35] 🐙 Cloning repository...
+[06:52:38] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:52:38] 🐙 Cloned repository!
+[06:52:38] 🐙 Pulling code changes from Github...
+[06:52:40] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+[06:53:46] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:53:46] 🐙 Cloning repository...
+[06:53:49] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:53:50] 🐙 Cloned repository!
+[06:53:50] 🐙 Pulling code changes from Github...
+[06:53:53] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+[06:55:43] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:55:43] 🐙 Cloning repository...
+[06:55:46] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:55:46] 🐙 Cloned repository!
+[06:55:46] 🐙 Pulling code changes from Github...
+[06:55:50] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+[06:56:37] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:56:37] 🐙 Cloning repository...
+[06:56:39] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:56:40] 🐙 Cloned repository!
+[06:56:40] 🐙 Pulling code changes from Github...
+[06:56:43] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+[06:57:18] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:57:18] 🐙 Cloning repository...
+[06:57:21] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:57:21] 🐙 Cloned repository!
+[06:57:21] 🐙 Pulling code changes from Github...
+[06:57:25] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved [2025-08-20 06:58:31.073973] 64 packages[2025-08-20 06:58:31.074287]  [2025-08-20 06:58:31.074616] in 4.32s[2025-08-20 06:58:31.081130] 
+Audited 64 packages in 0.31ms
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 06:59:01.694526] 
+Audited [2025-08-20 06:59:01.931145] 1 package in 136ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[06:59:04] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[06:59:15] 📦 Processed dependencies!
+
+
+
+2025-08-20 07:00:25.239990: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:00:26.556047: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 07:02:43.770220: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:03:22.386 503 GET /script-health-check (127.0.0.1) 60105.76ms
+  0%|          | 0.00/2.43k [00:00<?, ?iB/s][2025-08-20 07:03:33.103487] 100%|██████████| 2.43k/2.43k [00:00<00:00, 1.81MiB/s][2025-08-20 07:03:33.103868] 
+[07:06:57] 🐙 Pulling code changes from Github...
+[07:06:58] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+2025-08-20 07:07:02.073 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved [2025-08-20 07:07:04.823771] 63 packages[2025-08-20 07:07:04.824243]  [2025-08-20 07:07:04.833154] in 2.70s[2025-08-20 07:07:04.833749] 
+Audited [2025-08-20 07:07:04.960953] 63 packages[2025-08-20 07:07:04.964891]  [2025-08-20 07:07:04.966468] in 0.28ms[2025-08-20 07:07:04.966891] 
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 07:07:13.267288] 
+Audited [2025-08-20 07:07:13.267858] 1 package[2025-08-20 07:07:13.268070]  [2025-08-20 07:07:13.268271] in 23ms[2025-08-20 07:07:13.272489] 
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:07:13] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+[07:07:13] 📦 Processed dependencies!
+  Stopping...
+[07:07:19] 🔌 Disconnecting...
+[07:07:24] 🖥 Provisioning machine...
+
+
+
+[07:07:28] 🎛 Preparing system...
+[07:07:28] ⛓ Spinning up manager process...
+[07:07:27] 🔄 Updated app!
+2025-08-20 07:07:29.521312: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:07:29.653629: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 07:07:46.733778: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:08:57.465 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[07:13:28] 🐙 Pulling code changes from Github...
+[07:13:30] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 69 packages in 319ms
+Prepared 5 packages in 42ms
+Installed 5 packages in 5ms
+ [2025-08-20 07:13:31.411116] + beautifulsoup4==4.13.4
+ + filelock==3.19.1
+ + gdown==5.2.0
+ + pysocks==1.7.1
+ + soupsieve==2.7
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 07:13:32.600630] 
+Audited [2025-08-20 07:13:32.603732] 1 package[2025-08-20 07:13:32.603968]  [2025-08-20 07:13:32.604188] in 4ms[2025-08-20 07:13:32.604931] 
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:13:34] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+[07:13:34] 📦 Processed dependencies!
+  Stopping...
+[07:13:39] 🔌 Disconnecting...
+
+
+
+[07:13:41] 🔄 Updated app!
+[07:13:44] 🖥 Provisioning machine...
+[07:13:44] 🎛 Preparing system...
+[07:13:44] ⛓ Spinning up manager process...
+2025-08-20 07:13:48.946961: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:13:49.077652: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 07:14:03.337416: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+[06:57:18] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[06:57:18] 🐙 Cloning repository...
+[06:57:21] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[06:57:21] 🐙 Cloned repository!
+[06:57:21] 🐙 Pulling code changes from Github...
+[06:57:25] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved [2025-08-20 06:58:31.073973] 64 packages[2025-08-20 06:58:31.074287]  [2025-08-20 06:58:31.074616] in 4.32s[2025-08-20 06:58:31.081130] 
+Audited 64 packages in 0.31ms
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 06:59:01.694526] 
+Audited [2025-08-20 06:59:01.931145] 1 package in 136ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[06:59:04] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[06:59:15] 📦 Processed dependencies!
+
+
+
+2025-08-20 07:00:25.239990: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:00:26.556047: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 07:02:43.770220: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:03:22.386 503 GET /script-health-check (127.0.0.1) 60105.76ms
+  0%|          | 0.00/2.43k [00:00<?, ?iB/s][2025-08-20 07:03:33.103487] 100%|██████████| 2.43k/2.43k [00:00<00:00, 1.81MiB/s][2025-08-20 07:03:33.103868] 
+[07:06:57] 🐙 Pulling code changes from Github...
+[07:06:58] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+2025-08-20 07:07:02.073 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved [2025-08-20 07:07:04.823771] 63 packages[2025-08-20 07:07:04.824243]  [2025-08-20 07:07:04.833154] in 2.70s[2025-08-20 07:07:04.833749] 
+Audited [2025-08-20 07:07:04.960953] 63 packages[2025-08-20 07:07:04.964891]  [2025-08-20 07:07:04.966468] in 0.28ms[2025-08-20 07:07:04.966891] 
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 07:07:13.267288] 
+Audited [2025-08-20 07:07:13.267858] 1 package[2025-08-20 07:07:13.268070]  [2025-08-20 07:07:13.268271] in 23ms[2025-08-20 07:07:13.272489] 
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:07:13] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+[07:07:13] 📦 Processed dependencies!
+  Stopping...
+
+
+
+[07:07:27] 🔄 Updated app!
+2025-08-20 07:07:29.521312: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:07:29.653629: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 07:07:46.733778: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:08:57.465 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+[07:13:28] 🐙 Pulling code changes from Github...
+[07:13:30] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 69 packages in 319ms
+Prepared 5 packages in 42ms
+Installed 5 packages in 5ms
+ [2025-08-20 07:13:31.411116] + beautifulsoup4==4.13.4
+ + filelock==3.19.1
+ + gdown==5.2.0
+ + pysocks==1.7.1
+ + soupsieve==2.7
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 07:13:32.600630] 
+Audited [2025-08-20 07:13:32.603732] 1 package[2025-08-20 07:13:32.603968]  [2025-08-20 07:13:32.604188] in 4ms[2025-08-20 07:13:32.604931] 
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:13:34] 🐍 Python dependencies were installed from /mount/src/cat-dog-classification/requirements.txt using uv.
+[07:13:34] 📦 Processed dependencies!
+  Stopping...
+
+
+
+[07:13:41] 🔄 Updated app!
+2025-08-20 07:13:48.946961: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-20 07:13:49.077652: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-20 07:14:03.337416: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+[07:33:11] 🐙 Pulling code changes from Github...
+[07:33:11] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because tensorflow==2.19.0 has no wheels with a matching Python ABI
+      tag and you require tensorflow==2.19.0, we can conclude that your
+      requirements are unsatisfiable.
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Audited 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit (from -r /mount/src/cat-dog-classification/requirements.txt (line 1))
+  Downloading streamlit-1.48.1-py3-none-any.whl.metadata (9.5 kB)
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement tensorflow==2.19.0 (from versions: 2.20.0rc0, 2.20.0)
+ERROR: No matching distribution found for tensorflow==2.19.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Found Streamlit version 1.48.1 in the environment
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.1.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.1.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 6.5 MB/s eta 0:00:00
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 106.4 MB/s eta 0:00:00
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 25.9 MB/s eta 0:00:00
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.1.0
+    Uninstalling rich-14.1.0:
+      Successfully uninstalled rich-14.1.0
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.1.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:33:23] ❗️ installer returned a non-zero exit code
+[07:33:32] 🖥 Provisioning machine...
+[07:33:37] 🎛 Preparing system...
+[07:33:33] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[07:33:33] 🐙 Cloning repository...
+[07:33:34] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[07:33:34] 🐙 Cloned repository!
+[07:33:34] 🐙 Pulling code changes from Github...
+[07:33:34] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because tensorflow==2.19.0 has no wheels with a matching Python ABI
+      tag and you require tensorflow==2.19.0, we can conclude that your
+      requirements are unsatisfiable.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 4 packages in 123ms
+Prepared 4 packages in 117ms
+Installed 4 packages in 21ms
+ + markdown-it-py==4.0.0[2025-08-20 07:33:35.462598] 
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.1.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:33:38] ⛓ Spinning up manager process...
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit (from -r /mount/src/cat-dog-classification/requirements.txt (line 1))
+  Downloading streamlit-1.48.1-py3-none-any.whl.metadata (9.5 kB)
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement tensorflow==2.19.0 (from versions: 2.20.0rc0, 2.20.0)
+ERROR: No matching distribution found for tensorflow==2.19.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.1.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.1.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 15.1 MB/s eta 0:00:00[2025-08-20 07:33:38.880227] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 126.7 MB/s eta 0:00:00[2025-08-20 07:33:38.894357] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 74.9 MB/s eta 0:00:00[2025-08-20 07:33:38.925611] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.1.0
+    Uninstalling rich-14.1.0:
+      Successfully uninstalled rich-14.1.0
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.1.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:33:41] ❗️ installer returned a non-zero exit code
+[07:33:41] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+[07:35:41] 🖥 Provisioning machine...
+[07:35:47] 🎛 Preparing system...
+[07:35:42] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[07:35:42] 🐙 Cloning repository...
+[07:35:43] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[07:35:43] 🐙 Cloned repository!
+[07:35:43] 🐙 Pulling code changes from Github...
+[07:35:43] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because tensorflow==2.19.0 has no wheels with a matching Python ABI
+      tag and you require tensorflow==2.19.0, we can conclude that your
+      requirements are unsatisfiable.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 4 packages in 128ms
+Prepared 4 packages in 139ms
+Installed 4 packages in 21ms
+ + markdown-it-py[2025-08-20 07:35:45.020419] ==4.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.1.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit (from -r /mount/src/cat-dog-classification/requirements.txt (line 1))
+  Downloading streamlit-1.48.1-py3-none-any.whl.metadata (9.5 kB)
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement tensorflow==2.19.0 (from versions: 2.20.0rc0, 2.20.0)
+ERROR: No matching distribution found for tensorflow==2.19.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+[07:35:50] ⛓ Spinning up manager process...
+Collecting rich>=10.14.0
+  Downloading rich-14.1.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.1.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 14.4 MB/s eta 0:00:00[2025-08-20 07:35:48.481538] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 131.4 MB/s eta 0:00:00[2025-08-20 07:35:48.496135] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 98.7 MB/s eta 0:00:00[2025-08-20 07:35:48.521959] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.1.0
+    Uninstalling rich-14.1.0:
+      Successfully uninstalled rich-14.1.0
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.1.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:35:51] ❗️ installer returned a non-zero exit code
+[07:35:51] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+[07:39:58] 🖥 Provisioning machine...
+[07:40:04] 🎛 Preparing system...
+[07:40:03] 🚀 Starting up repository: 'cat-dog-classification', branch: 'main', main module: 'app.py'
+[07:40:03] 🐙 Cloning repository...
+[07:40:04] 🐙 Cloning into '/mount/src/cat-dog-classification'...
+
+[07:40:04] 🐙 Cloned repository!
+[07:40:04] 🐙 Pulling code changes from Github...
+[07:40:04] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+[07:40:08] ⛓ Spinning up manager process...
+  × No solution found when resolving dependencies:[2025-08-20 07:40:05.980418] 
+  ╰─▶ Because tensorflow==2.19.0 has no wheels with a matching Python ABI
+      tag and you require tensorflow==2.19.0, we can conclude that your
+      requirements are unsatisfiable.[2025-08-20 07:40:05.981100] 
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv[2025-08-20 07:40:06.049296] 
+Resolved [2025-08-20 07:40:06.274752] 4 packages[2025-08-20 07:40:06.275126]  [2025-08-20 07:40:06.275467] in 221ms[2025-08-20 07:40:06.275882] 
+Prepared 4 packages in 493ms
+Installed 4 packages in 173ms
+ + markdown-it-py==4.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.1.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit (from -r /mount/src/cat-dog-classification/requirements.txt (line 1))
+  Downloading streamlit-1.48.1-py3-none-any.whl.metadata (9.5 kB)
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement tensorflow==2.19.0 (from versions: 2.20.0rc0, 2.20.0)
+ERROR: No matching distribution found for tensorflow==2.19.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.1.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.1.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 10.8 MB/s eta 0:00:00[2025-08-20 07:40:12.655380] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 158.4 MB/s eta 0:00:00[2025-08-20 07:40:12.675061] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 26.6 MB/s eta 0:00:00[2025-08-20 07:40:12.741072] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.1.0
+    Uninstalling rich-14.1.0:
+      Successfully uninstalled rich-14.1.0
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.1.0
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:40:17] ❗️ installer returned a non-zero exit code
+[07:40:17] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
