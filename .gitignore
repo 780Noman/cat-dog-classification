@@ -56,6 +56,3 @@ venv.bak/
 # Streamlit secrets
 .streamlit/
 
-# Local model files
-*.keras
-*.h5

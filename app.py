@@ -124,7 +124,7 @@ with col1:
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     with col1:
-        st.image(image, caption="Uploaded Image", use_column_width=True)
+        st.image(image, caption="Uploaded Image", use_container_width=True)
     
     if model is not None:
         # Preprocess the image and make a prediction
