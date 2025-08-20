@@ -3,4 +3,3 @@ tensorflow
 numpy
 Pillow
 requests
-tqdm
