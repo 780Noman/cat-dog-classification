@@ -106,12 +106,21 @@ def main():
             "Choose an image...", type=["jpg", "jpeg", "png"]
         )
 
+        st.header("Or Use Webcam")
+        camera_image = st.camera_input("Take a picture")
+
+    image_to_process = None
     if uploaded_file is not None:
+        image_to_process = uploaded_file
+    elif camera_image is not None:
+        image_to_process = camera_image
+
+    if image_to_process is not None:
         try:
-            image = Image.open(uploaded_file)
+            image = Image.open(image_to_process)
             
             with col1:
-                st.image(image, caption="Uploaded Image", use_container_width=True)
+                st.image(image, caption="Your Image", use_container_width=True)
 
             # Preprocess the image and make a prediction
             with st.spinner("Analyzing the image..."):
@@ -135,7 +144,7 @@ def main():
 
     else:
         with col2:
-            st.info("Please upload an image to see the prediction.")
+            st.info("Please upload an image or use the webcam to see the prediction.")
 
 if __name__ == "__main__":
     main()
