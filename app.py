@@ -107,7 +107,19 @@ def main():
         )
 
         st.header("Or Use Webcam")
-        camera_image = st.camera_input("Take a picture")
+        
+        # Initialize session state for webcam activation
+        if 'webcam_active' not in st.session_state:
+            st.session_state.webcam_active = False
+
+        if st.button("Activate Webcam"):
+            st.session_state.webcam_active = True
+
+        camera_image = None
+        if st.session_state.webcam_active:
+            camera_image = st.camera_input("Take a picture")
+            if camera_image: # If an image is taken, deactivate webcam to prevent continuous capture
+                st.session_state.webcam_active = False
 
     image_to_process = None
     if uploaded_file is not None:
