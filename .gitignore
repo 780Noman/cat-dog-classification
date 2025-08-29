@@ -56,3 +56,13 @@ venv.bak/
 # Streamlit secrets
 .streamlit/
 
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model files
+*.keras
+*.h5
+
+# Utility scripts
+colab_upload_script.py
+upload_model.py
